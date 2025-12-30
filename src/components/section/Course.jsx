@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../subcomponent/Button";
+import courseImg from "../../assets/online.webp";
 
 const Course = (props) => {
   return (
@@ -18,7 +19,7 @@ const Course = (props) => {
           <div className="mt-10">
             <img
               className="w-64 rounded-2xl sm:w-80 lg:w-[500px]"
-              src="./images/online.webp"
+              src={courseImg}
               alt="course-img"
             />
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../subcomponent/Button";
+import heroImg from "../../assets/hero.webp";
 import Ribbon from "../subcomponent/Ribbon";
 
 const Home = (props) => {
@@ -30,7 +31,7 @@ const Home = (props) => {
         <div className="w-full lg:w-auto flex justify-center">
           <img
             className="w-64 sm:w-80 lg:w-[500px]"
-            src="./images/hero.webp"
+            src={heroImg}
             alt="hero-img"
           />
         </div>
