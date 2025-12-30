@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary Brand Colors */
+  --primary-purple: #8B5CF6;
+  --primary-purple-dark: #7C3AED;
+  --primary-purple-light: #C084FC;
+
+  /* Gradient Colors */
+  --gradient-start: #C084FC;
+  --gradient-middle: #A855F7;
+  --gradient-end: #9333EA;
+
+  /* Accent Colors */
+  --accent-pink: #EC4899;
+  --accent-lavender: #E9D5FF;
+
+  /* Background Colors */
+  --bg-main: #FFFFFF;
+  --bg-section: #F3E8FF;
+  --bg-card: #FFFFFF;
+
+  /* Text Colors */
+  --text-heading: #1F2937;
+  --text-body: #6B7280;
+  --text-muted: #9CA3AF;
+  --text: #f5f2f2;
+
+  /* Border & Shadow */
+  --border-light: #E9D5FF;
+  --shadow-soft: rgba(139, 92, 246, 0.15);
+}
