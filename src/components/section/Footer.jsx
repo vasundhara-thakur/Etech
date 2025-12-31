@@ -12,7 +12,6 @@ const Footer = () => {
           the future.
         </p>
       </div>
-       <div className="flex items-center justify-between">
         <div className="mb-4">
         <h2 className="text-2xl font-semibold">Company</h2>
         <p>About Us</p>
@@ -26,7 +25,6 @@ const Footer = () => {
         <p>Tweet Us</p>
         <p>Webinar</p>
         <p>Feedback</p>
-      </div>
        </div>
       <div className="mb-4">
         <h2 className="text-2xl font-semibold">Contact Us</h2>

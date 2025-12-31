@@ -1,6 +1,10 @@
 import React from "react";
 import Button from "../subcomponent/Button";
 import courseImg from "../../assets/online.webp";
+import degicon from "../../assets/degree.png";
+import courseicon from "../../assets/course.png";
+import stuicon from "../../assets/student.png";
+import videoicon from "../../assets/video.png";
 
 const Course = (props) => {
   return (
@@ -23,19 +27,51 @@ const Course = (props) => {
               alt="course-img"
             />
           </div>
-          <div className="">
+          <div>
             <h1 className="text-xl font-semibold mt-2 mb-2 md:text-xl lg:text-3xl">
               <span className="text-[var(--accent-pink)]">Benefits</span> From
               Our Online Learning
             </h1>
-            <h2 className="ml-8 text-xl font-semibold">Online Degrees</h2>
-            <p className="ml-8 mb-2 text-[var(--text-body)]">Earn accredited degrees from the comfort of your home.</p>
-            <h2 className="ml-8 text-xl font-semibold">Short Courses</h2>
-            <p className="ml-8 mb-2 text-[var(--text-body)]">Learn new skills in a short amount of time.</p>
-            <h2 className="ml-8 text-xl font-semibold">Training From Experts</h2>
-            <p className="ml-8 mb-2 text-[var(--text-body)]">Learn from industry professionals and experts.</p>
-            <h2 className="ml-8 text-xl font-semibold">1.5k+ Video Courses</h2>
-            <p className="ml-8 mb-2 text-[var(--text-body)]">High-quality video lessons for better learning.</p>
+            <div className="flex items-center gap-2">
+              <img className="w-11" src={degicon} alt="icons" />
+              <div>
+                <h2 className="ml-8 text-xl font-semibold">Online Degrees</h2>
+                <p className="ml-8 mb-2 text-[var(--text-body)]">
+                  Earn accredited degrees from the comfort of your home.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <img className="w-11" src={courseicon} alt="icons" />
+              <div>
+                <h2 className="ml-8 text-xl font-semibold">Short Courses</h2>
+                <p className="ml-8 mb-2 text-[var(--text-body)]">
+                  Learn new skills in a short amount of time.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <img className="w-12" src={stuicon} alt="icons" />
+              <div>
+                <h2 className="ml-8 text-xl font-semibold">
+                  Training From Experts
+                </h2>
+                <p className="ml-8 mb-2 text-[var(--text-body)]">
+                  Learn from industry professionals and experts.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <img className="w-12" src={videoicon} alt="icons" />
+              <div>
+                <h2 className="ml-8 text-xl font-semibold">
+                  1.5k+ Video Courses
+                </h2>
+                <p className="ml-8 mb-2 text-[var(--text-body)]">
+                  High-quality video lessons for better learning.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
