@@ -32,7 +32,7 @@ const Course = (props) => {
               <span className="text-[var(--accent-pink)]">Benefits</span> From
               Our Online Learning
             </h1>
-            <div className="flex items-center gap-1/2">
+            <div className="flex items-start gap-1/2">
               <img className="w-11" src={degicon} alt="icons" />
               <div>
                 <h2 className="ml-8 text-xl font-semibold">Online Degrees</h2>
@@ -41,7 +41,7 @@ const Course = (props) => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-1/2">
+            <div className="flex items-start gap-1/2">
               <img className="w-11" src={courseicon} alt="icons" />
               <div>
                 <h2 className="ml-8 text-xl font-semibold">Short Courses</h2>
@@ -50,7 +50,7 @@ const Course = (props) => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-1/2">
+            <div className="flex items-start gap-1/2">
               <img className="w-12" src={stuicon} alt="icons" />
               <div>
                 <h2 className="ml-8 text-xl font-semibold">
@@ -61,7 +61,7 @@ const Course = (props) => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-1/2">
+            <div className="flex items-start gap-1/2">
               <img className="w-12" src={videoicon} alt="icons" />
               <div>
                 <h2 className="ml-8 text-xl font-semibold">
