@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div className="px-5">
       <nav className=" text[var(--text-heading)] pt-5">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
